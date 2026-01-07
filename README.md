@@ -214,7 +214,16 @@ Go to your repository Settings → Secrets and variables → Actions, and add:
 - `SOUNDCLOUD_CLIENT_SECRET`
 - `SOUNDCLOUD_USERNAME`
 
-### 2. The Workflow
+### 2. Enable Workflow Permissions
+
+GitHub Actions needs permission to commit to your repository:
+
+1. Go to Settings → Actions → General
+2. Scroll to **Workflow permissions**
+3. Select **"Read and write permissions"**
+4. Click **Save**
+
+### 3. The Workflow
 
 The workflow file `.github/workflows/update-tracks.yml` is already configured. It will:
 
@@ -224,7 +233,7 @@ The workflow file `.github/workflows/update-tracks.yml` is already configured. I
 - Commit `tracks.json` to your repository
 - Your GitHub Pages site automatically updates
 
-### 3. Customize Schedule
+### 4. Customize Schedule
 
 Edit `.github/workflows/update-tracks.yml` to change the schedule:
 
@@ -236,7 +245,7 @@ schedule:
   # - cron: '0 0 * * 0'    # Weekly on Sunday
 ```
 
-### 4. Manual Trigger
+### 5. Manual Trigger
 
 You can trigger the workflow manually anytime:
 1. Go to Actions tab in your GitHub repository
