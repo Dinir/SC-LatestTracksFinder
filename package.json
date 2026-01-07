@@ -1,0 +1,22 @@
+{
+  "name": "sc-latest-tracks-finder",
+  "version": "1.0.0",
+  "description": "Retrieve latest tracks from a SoundCloud account using SoundCloud API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "generate": "node generate-tracks.js"
+  },
+  "keywords": [
+    "soundcloud",
+    "api",
+    "tracks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

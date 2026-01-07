@@ -1,0 +1,54 @@
+name: Update SoundCloud Tracks
+
+on:
+  # Run manually from Actions tab
+  workflow_dispatch:
+
+  # Run on schedule (e.g., daily at 6 AM UTC)
+  schedule:
+    - cron: '0 6,18 * * *'
+
+  # Run when pushing to main branch (optional)
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  update-tracks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate tracks JSON
+        env:
+          SOUNDCLOUD_CLIENT_ID: ${{ secrets.SOUNDCLOUD_CLIENT_ID }}
+          SOUNDCLOUD_CLIENT_SECRET: ${{ secrets.SOUNDCLOUD_CLIENT_SECRET }}
+          SOUNDCLOUD_USERNAME: ${{ secrets.SOUNDCLOUD_USERNAME }}
+          TRACK_LIMIT: 5
+          OUTPUT_FILE: tracks.json
+          # Embed customization (optional - uncomment and modify as needed)
+          # EMBED_COLOR: ff5500
+          # EMBED_AUTO_PLAY: false
+          # EMBED_HIDE_RELATED: false
+          # EMBED_SHOW_COMMENTS: true
+          # EMBED_SHOW_USER: true
+          # EMBED_SHOW_REPOSTS: false
+          # EMBED_SHOW_TEASER: true
+        run: npm run generate
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add tracks.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update tracks.json [skip ci]" && git push)
