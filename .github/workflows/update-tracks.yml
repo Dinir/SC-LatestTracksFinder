@@ -34,7 +34,7 @@ jobs:
           SOUNDCLOUD_CLIENT_ID: ${{ secrets.SOUNDCLOUD_CLIENT_ID }}
           SOUNDCLOUD_CLIENT_SECRET: ${{ secrets.SOUNDCLOUD_CLIENT_SECRET }}
           SOUNDCLOUD_USERNAME: ${{ secrets.SOUNDCLOUD_USERNAME }}
-          TRACK_LIMIT: 5
+          TRACK_LIMIT: 6
           OUTPUT_FILE: tracks.json
           # Embed customization (optional - uncomment and modify as needed)
           EMBED_COLOR: 65849f
