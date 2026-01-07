@@ -37,13 +37,13 @@ jobs:
           TRACK_LIMIT: 5
           OUTPUT_FILE: tracks.json
           # Embed customization (optional - uncomment and modify as needed)
-          # EMBED_COLOR: ff5500
+          EMBED_COLOR: 65849f
           # EMBED_AUTO_PLAY: false
-          # EMBED_HIDE_RELATED: false
+          EMBED_HIDE_RELATED: true
           # EMBED_SHOW_COMMENTS: true
           # EMBED_SHOW_USER: true
           # EMBED_SHOW_REPOSTS: false
-          # EMBED_SHOW_TEASER: true
+          EMBED_SHOW_TEASER: false
         run: npm run generate
 
       - name: Commit and push if changed
