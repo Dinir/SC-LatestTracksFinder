@@ -5,9 +5,25 @@
     "permalink_url": "https://soundcloud.com/dinir?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
     "avatar_url": "https://i1.sndcdn.com/avatars-TPTNXGxiR8A69tb9-oebzbw-large.jpg",
     "followers_count": 27,
-    "track_count": 24
+    "track_count": 25
   },
   "tracks": [
+    {
+      "id": 2254152293,
+      "title": "The Caregiver (sketch)",
+      "permalink_url": "https://soundcloud.com/dinir/the-caregiver-sketch?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/01/26 02:26:43 +0000",
+      "duration": "1:53",
+      "playback_count": 0,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "Soundtrack",
+      "description": "",
+      "artwork_url": null,
+      "waveform_url": "https://wave.sndcdn.com/JJE4CVwHQzd6_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fthe-caregiver-sketch%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/the-caregiver-sketch?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
     {
       "id": 2253334490,
       "title": "Common Flow 65 (won't continue)",
@@ -87,24 +103,8 @@
       "waveform_url": "https://wave.sndcdn.com/9q479E95HD1N_m.png",
       "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fthe-drowners%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
       "permalink": "https://soundcloud.com/dinir/the-drowners?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
-    },
-    {
-      "id": 2249566646,
-      "title": "320,000 Bolts per Second",
-      "permalink_url": "https://soundcloud.com/dinir/320kbps?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
-      "created_at": "2026/01/18 10:00:13 +0000",
-      "duration": "1:48",
-      "playback_count": 60,
-      "likes_count": 0,
-      "comment_count": 0,
-      "genre": "Soundtrack",
-      "description": "Finally got my hands into making a simple FM drumset.",
-      "artwork_url": "https://i1.sndcdn.com/artworks-rXb49ElzSj71Esdt-277YKw-large.jpg",
-      "waveform_url": "https://wave.sndcdn.com/vsTUO1jaAsAJ_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2F320kbps%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/320kbps?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     }
   ],
-  "generated_at": "2026-01-25T18:18:33.145Z",
+  "generated_at": "2026-01-26T06:25:07.043Z",
   "track_count": 6
 }
