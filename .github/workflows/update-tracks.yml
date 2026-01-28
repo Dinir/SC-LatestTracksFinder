@@ -50,5 +50,16 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add tracks.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update tracks.json [skip ci]" && git push)
+
+          # Compare content excluding generated_at timestamp
+          OLD_CONTENT=$(git show HEAD:tracks.json 2>/dev/null | jq 'del(.generated_at)' 2>/dev/null || echo "{}")
+          NEW_CONTENT=$(jq 'del(.generated_at)' tracks.json)
+
+          if [ "$OLD_CONTENT" = "$NEW_CONTENT" ]; then
+            echo "No meaningful changes in tracks.json (only generated_at differs)"
+            git checkout tracks.json
+          else
+            echo "Tracks content has changed, committing..."
+            git add tracks.json
+            git commit -m "Update tracks.json [skip ci]" && git push
+          fi
