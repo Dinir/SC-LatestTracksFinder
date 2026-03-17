@@ -56,6 +56,7 @@ export class SoundCloudClient {
   /**
    * Make authenticated API request
    * @param {string} url - API endpoint URL
+   * @param {number} retries - Number of retries for server errors (default: 3)
    * @returns {Promise<Object>} Response data
    */
   async authenticatedRequest (url, retries = 3) {
