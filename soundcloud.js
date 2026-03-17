@@ -82,8 +82,6 @@ export class SoundCloudClient {
 
       throw new Error(`API request failed: ${response.status} ${response.statusText}`)
     }
-
-    return await response.json()
   }
 
   /**
