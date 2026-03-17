@@ -19,16 +19,17 @@ export class SoundCloudClient {
    * @returns {Promise<string>} Access token
    */
   async getAccessToken () {
-    // Return cached token if still valid
+    // Return the cached token if still valid
     if (this.accessToken && this.tokenExpiry && Date.now() < this.tokenExpiry) {
       return this.accessToken
     }
 
-    try {
-      // Create Basic Auth header
-      const credentials = Buffer.from(`${this.clientId}:${this.clientSecret}`).toString('base64')
+    // Create Basic Auth header
+    const credentials = Buffer.from(`${this.clientId}:${this.clientSecret}`).toString('base64')
 
-      const response = await fetch(this.tokenUrl, {
+    let response
+    try {
+      response = await fetch(this.tokenUrl, {
         method: 'POST',
         headers: {
           Authorization: `Basic ${credentials}`,
@@ -36,21 +37,21 @@ export class SoundCloudClient {
         },
         body: 'grant_type=client_credentials'
       })
-
-      if (!response.ok) {
-        const error = await response.text()
-        throw new Error(`Token request failed: ${response.status} ${response.statusText} - ${error}`)
-      }
-
-      const data = await response.json()
-      this.accessToken = data.access_token
-      // Set expiry to 5 minutes before actual expiry for safety
-      this.tokenExpiry = Date.now() + ((data.expires_in - 300) * 1000)
-
-      return this.accessToken
     } catch (error) {
       throw new Error(`Error getting access token: ${error.message}`)
     }
+
+    if (!response.ok) {
+      const error = await response.text()
+      throw new Error(`Error getting access token: ${response.status} ${response.statusText} - ${error}`)
+    }
+
+    const data = await response.json()
+    this.accessToken = data.access_token
+    // Set expiry to 5 minutes before actual expiry for safety
+    this.tokenExpiry = Date.now() + ((data.expires_in - 300) * 1000)
+
+    return this.accessToken
   }
 
   /**
