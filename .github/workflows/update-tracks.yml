@@ -64,5 +64,5 @@ jobs:
           else
             echo "Tracks content has changed, committing..."
             git add tracks.json
-            git commit -m "Update tracks.json [skip ci]" && git push
+            git commit -m "Update tracks.json [skip ci]" && git pull --rebase && git push
           fi
