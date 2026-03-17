@@ -58,16 +58,28 @@ export class SoundCloudClient {
    * @param {string} url - API endpoint URL
    * @returns {Promise<Object>} Response data
    */
-  async authenticatedRequest (url) {
+  async authenticatedRequest (url, retries = 3) {
     const token = await this.getAccessToken()
 
-    const response = await fetch(url, {
-      headers: {
-        Authorization: `OAuth ${token}`
-      }
-    })
+    for (let attempt = 0; attempt <= retries; attempt++) {
+      const response = await fetch(url, {
+        headers: {
+          Authorization: `OAuth ${token}`
+        }
+      })
 
-    if (!response.ok) {
+      if (response.ok) {
+        return await response.json()
+      }
+
+      // Retry on server errors (5xx)
+      if (response.status >= 500 && attempt < retries) {
+        const delay = 1000 * 2 ** attempt
+        console.log(`Request failed with ${response.status}, retrying in ${delay / 1000}s (attempt ${attempt + 1}/${retries})...`)
+        await new Promise(resolve => setTimeout(resolve, delay))
+        continue
+      }
+
       throw new Error(`API request failed: ${response.status} ${response.statusText}`)
     }
 
