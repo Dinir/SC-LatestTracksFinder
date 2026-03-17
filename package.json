@@ -14,7 +14,7 @@
     "api",
     "tracks"
   ],
-  "author": "",
+  "author": "Dinir Nertan <DinirNertan@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5"
