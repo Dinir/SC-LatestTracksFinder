@@ -5,9 +5,41 @@
     "permalink_url": "https://soundcloud.com/dinir?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
     "avatar_url": "https://i1.sndcdn.com/avatars-TPTNXGxiR8A69tb9-oebzbw-large.jpg",
     "followers_count": 27,
-    "track_count": 16
+    "track_count": 18
   },
   "tracks": [
+    {
+      "id": 2292146771,
+      "title": "Under Grass",
+      "permalink_url": "https://soundcloud.com/dinir/under-grass?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/03/28 09:30:04 +0000",
+      "duration": "3:07",
+      "playback_count": 1,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "VGM",
+      "description": "Small Creatures, neither depressed nor consoled.\n\nMake a few of short and bright melodies, then try to make the whole thing as dark as possible. The result stays at the exact grey area: this track is neither depressing nor consoling.",
+      "artwork_url": "https://i1.sndcdn.com/artworks-VHdPJ5EpCidAZFCv-AdFYZg-large.jpg",
+      "waveform_url": "https://wave.sndcdn.com/DiTb5Yiw6BHg_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Funder-grass%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/under-grass?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
+    {
+      "id": 2282905133,
+      "title": "Test Flight",
+      "permalink_url": "https://soundcloud.com/dinir/test-flight?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/03/13 06:21:37 +0000",
+      "duration": "2:35",
+      "playback_count": 49,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "VGM",
+      "description": "Air Buster is a cool game. Yeah, the no-gravity change is terrible.\nEvery instrument here is made in GHOST, an FM Synthesizer.\n\nEye Candy: https://youtu.be/fHLJmwfamAM\n\nv1.0.1",
+      "artwork_url": "https://i1.sndcdn.com/artworks-baydptqz0WDD7R6D-Wws5yw-large.jpg",
+      "waveform_url": "https://wave.sndcdn.com/yKDRcK4cWppH_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Ftest-flight%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/test-flight?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
     {
       "id": 2279394245,
       "title": "Common Flow 86",
@@ -71,24 +103,8 @@
       "waveform_url": "https://wave.sndcdn.com/AgWFLBDatn1P_m.png",
       "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Funcommon-flow-9%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
       "permalink": "https://soundcloud.com/dinir/uncommon-flow-9?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
-    },
-    {
-      "id": 2249813693,
-      "title": "What I was Told How Peace Feels Like",
-      "permalink_url": "https://soundcloud.com/dinir/what-i-was-told-how-peace-feels-like?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
-      "created_at": "2026/01/18 20:49:48 +0000",
-      "duration": "0:41",
-      "playback_count": 5,
-      "likes_count": 1,
-      "comment_count": 0,
-      "genre": "Soundtrack",
-      "description": "My Second Insane Attempt to make something actually bright and not depressing.",
-      "artwork_url": "https://i1.sndcdn.com/artworks-rXb49ElzSj71Esdt-277YKw-large.jpg",
-      "waveform_url": "https://wave.sndcdn.com/qZjPWnWHlvhY_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fwhat-i-was-told-how-peace-feels-like%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/what-i-was-told-how-peace-feels-like?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     }
   ],
-  "generated_at": "2026-04-02T18:14:03.082Z",
-  "track_count": 5
+  "generated_at": "2026-04-03T06:23:15.560Z",
+  "track_count": 6
 }
