@@ -5,24 +5,40 @@
     "permalink_url": "https://soundcloud.com/dinir?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
     "avatar_url": "https://i1.sndcdn.com/avatars-TPTNXGxiR8A69tb9-oebzbw-large.jpg",
     "followers_count": 26,
-    "track_count": 20
+    "track_count": 21
   },
   "tracks": [
     {
+      "id": 2303573741,
+      "title": "Common Flow 91",
+      "permalink_url": "https://soundcloud.com/dinir/cf91?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/04/16 11:27:24 +0000",
+      "duration": "2:21",
+      "playback_count": 0,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "Jazz & Blues",
+      "description": "",
+      "artwork_url": "https://i1.sndcdn.com/artworks-zbELyVryybtZm6LQ-yXdUpQ-large.jpg",
+      "waveform_url": "https://wave.sndcdn.com/Ic5ILx4tfXEi_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fcf91%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/cf91?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
+    {
       "id": 2300599253,
       "title": "Common Flow 95 (gave up)",
-      "permalink_url": "https://soundcloud.com/dinir/common-flow-95-gave-up?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "permalink_url": "https://soundcloud.com/dinir/cf95?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
       "created_at": "2026/04/11 06:23:14 +0000",
       "duration": "1:41",
       "playback_count": 1,
       "likes_count": 0,
       "comment_count": 0,
-      "genre": "Unknown",
+      "genre": "Jazz & Blues",
       "description": "certain mood requires more energy and I am not going to get any for a week\nthis track already passed '6 working hours' and it's not that bloomy. That's the signal I should see as 'give up.'\n\nIt doesn't help that it's been already over a week that I play the completed parts over-night as I sleep.",
-      "artwork_url": null,
+      "artwork_url": "https://i1.sndcdn.com/artworks-Mx1qzFRXOhbiEUYA-vKJszg-large.jpg",
       "waveform_url": "https://wave.sndcdn.com/9o1Pp3129Wwl_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fcommon-flow-95-gave-up%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/common-flow-95-gave-up?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fcf95%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/cf95?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     },
     {
       "id": 2292146771,
@@ -87,24 +103,8 @@
       "waveform_url": "https://wave.sndcdn.com/gZACXl1JH6Pi_m.png",
       "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fa-common-lucky-day%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
       "permalink": "https://soundcloud.com/dinir/a-common-lucky-day?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
-    },
-    {
-      "id": 2266411178,
-      "title": "Common Flow 80",
-      "permalink_url": "https://soundcloud.com/dinir/cf80?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
-      "created_at": "2026/02/14 08:18:45 +0000",
-      "duration": "2:29",
-      "playback_count": 11,
-      "likes_count": 1,
-      "comment_count": 0,
-      "genre": "Soundtrack",
-      "description": "\"I'm\" \"sad\" \"I\" \"can't\" \"feel\"\n\nv2.0.0",
-      "artwork_url": "https://i1.sndcdn.com/artworks-caTvQyqU3yueWmhV-giqWIQ-large.jpg",
-      "waveform_url": "https://wave.sndcdn.com/ma4tIDTUqhTT_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fcf80%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/cf80?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     }
   ],
-  "generated_at": "2026-04-15T06:33:28.697Z",
+  "generated_at": "2026-04-16T12:04:20.619Z",
   "track_count": 6
 }
