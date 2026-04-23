@@ -5,16 +5,32 @@
     "permalink_url": "https://soundcloud.com/dinir?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
     "avatar_url": "https://i1.sndcdn.com/avatars-TPTNXGxiR8A69tb9-oebzbw-large.jpg",
     "followers_count": 26,
-    "track_count": 23
+    "track_count": 24
   },
   "tracks": [
+    {
+      "id": 2307667301,
+      "title": "Unattended Tea Party",
+      "permalink_url": "https://soundcloud.com/dinir/unattended-tea-party?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/04/23 08:19:46 +0000",
+      "duration": "3:15",
+      "playback_count": 1,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "Jazz & Blues",
+      "description": "",
+      "artwork_url": null,
+      "waveform_url": "https://wave.sndcdn.com/vn8yG8v6XkI4_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Funattended-tea-party%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/unattended-tea-party?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
     {
       "id": 2303573741,
       "title": "Common Flow 91",
       "permalink_url": "https://soundcloud.com/dinir/cf91?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
       "created_at": "2026/04/16 11:27:24 +0000",
       "duration": "2:21",
-      "playback_count": 55,
+      "playback_count": 60,
       "likes_count": 1,
       "comment_count": 0,
       "genre": "Jazz & Blues",
@@ -87,24 +103,8 @@
       "waveform_url": "https://wave.sndcdn.com/dyOf5AWGPyzh_m.png",
       "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fcf86%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
       "permalink": "https://soundcloud.com/dinir/cf86?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
-    },
-    {
-      "id": 2278600082,
-      "title": "A Common Lucky Day",
-      "permalink_url": "https://soundcloud.com/dinir/a-common-lucky-day?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
-      "created_at": "2026/03/06 10:22:46 +0000",
-      "duration": "2:17",
-      "playback_count": 4,
-      "likes_count": 0,
-      "comment_count": 0,
-      "genre": "VGM",
-      "description": "Melody from Rezly",
-      "artwork_url": null,
-      "waveform_url": "https://wave.sndcdn.com/gZACXl1JH6Pi_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fa-common-lucky-day%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/a-common-lucky-day?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     }
   ],
-  "generated_at": "2026-04-23T06:34:43.677Z",
+  "generated_at": "2026-04-23T18:20:41.496Z",
   "track_count": 6
 }
