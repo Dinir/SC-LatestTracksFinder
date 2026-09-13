@@ -5,9 +5,25 @@
     "permalink_url": "https://soundcloud.com/dinir?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
     "avatar_url": "https://i1.sndcdn.com/avatars-TPTNXGxiR8A69tb9-oebzbw-large.jpg",
     "followers_count": 25,
-    "track_count": 6
+    "track_count": 7
   },
   "tracks": [
+    {
+      "id": 2399693088,
+      "title": "Copying Clockfight",
+      "permalink_url": "https://soundcloud.com/dinir/clocky-copy?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
+      "created_at": "2026/09/13 12:58:41 +0000",
+      "duration": "2:24",
+      "playback_count": 0,
+      "likes_count": 0,
+      "comment_count": 0,
+      "genre": "Unknown",
+      "description": "felt like trying making a lesser quality copy",
+      "artwork_url": "https://i1.sndcdn.com/artworks-bpJkGzBS93a7eSSy-DqQ3ag-large.jpg",
+      "waveform_url": "https://wave.sndcdn.com/XPBpDB7zM1L5_m.png",
+      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fclocky-copy%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
+      "permalink": "https://soundcloud.com/dinir/clocky-copy?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
+    },
     {
       "id": 2399485449,
       "title": "Common Flow 125",
@@ -87,24 +103,8 @@
       "waveform_url": "https://wave.sndcdn.com/pWr0Ce9mUqfP_m.png",
       "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fsector-1-6-calm%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
       "permalink": "https://soundcloud.com/dinir/sector-1-6-calm?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
-    },
-    {
-      "id": 1951473163,
-      "title": "Sector 1-6 - Action",
-      "permalink_url": "https://soundcloud.com/dinir/sector-1-6-action?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092",
-      "created_at": "2024/11/07 03:22:15 +0000",
-      "duration": "2:01",
-      "playback_count": 80,
-      "likes_count": 3,
-      "comment_count": 4,
-      "genre": "Progressive Rock",
-      "description": "The active side.\nI tried to make things as lively as possible while sticking to some things I like - like that arpeggio.",
-      "artwork_url": "https://i1.sndcdn.com/artworks-rvUuwzWEKozZqikc-F3gi2A-large.jpg",
-      "waveform_url": "https://wave.sndcdn.com/sMVtXXyv4OV0_m.png",
-      "embed_url": "https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fdinir%2Fsector-1-6-action%3Futm_medium%3Dapi%26utm_campaign%3Dsocial_sharing%26utm_source%3Did_321092&color=%2365849f&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false",
-      "permalink": "https://soundcloud.com/dinir/sector-1-6-action?utm_medium=api&utm_campaign=social_sharing&utm_source=id_321092"
     }
   ],
-  "generated_at": "2026-09-13T10:48:03.385Z",
+  "generated_at": "2026-09-13T20:00:09.374Z",
   "track_count": 6
 }
